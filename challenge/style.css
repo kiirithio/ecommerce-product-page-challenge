@@ -1,0 +1,109 @@
+body{
+   
+}
+.navbar{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.main{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-card{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-card img{
+    width: 70%;
+    height: 60%;
+    align-items: center;
+    margin: auto;
+    
+}
+.thumbnail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+.thumbnail img{
+    width: 10%;
+}
+.right-card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+
+}
+.navbar-left a{
+    color: dimgrey; 
+    text-decoration: none;
+    text-align: center;
+}
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 25px;
+}
+.navbar-right img{
+    width: 3%;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.sneaker-company{
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60%;
+}
+.right-card p{
+    font-size: 90%;
+    color: grey;
+}
+.amount{
+    font-size: 130%;
+    font-weight: bolder;
+}
+.fifty{
+    color: hsl(26, 100%, 55%); 
+    text-decoration: hsl(25, 100%, 94%);
+}
+.last-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.quantity{
+    font-size: larger;
+    background-color:hsl(25, 100%, 94%);
+    display: flex;
+    flex-direction: row;
+}
+.add-to-cart-button{
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    
+}
